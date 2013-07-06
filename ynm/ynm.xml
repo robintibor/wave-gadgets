@@ -158,7 +158,7 @@
 				function init() {
 					if (wave && wave.isInWaveContainer()) {
 						wave.setStateCallback(stateUpdated);
-    			        wave.setParticipantCallback(stateUpdated);
+    					wave.setParticipantCallback(stateUpdated);
 					}
 				}
 				gadgets.util.registerOnLoadHandler(init);
